@@ -193,3 +193,27 @@ li {
   display: inline-block;
   list-style-type: none;
 }
+
+
+
+/*======================================================================================================================*/
+/****************************************************** code start ******************************************************/
+/*======================================================================================================================*/
+
+
+main .wrapper {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a263e1;
+}
+
+main .wrapper ul li{
+  padding: 16px 32px;
+  border-radius: 3px;
+  margin: 0 8px;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+}
