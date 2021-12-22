@@ -216,4 +216,9 @@ main .wrapper ul li{
   margin: 0 8px;
   color: white;
   background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+main .wrapper ul li:hover {
+  background: rgba(0, 0, 0, 0.2);
 }
